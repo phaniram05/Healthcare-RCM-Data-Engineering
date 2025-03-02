@@ -2,7 +2,7 @@
 # Databricks notebook source
 storageAccountName = "healthcareadlsgen2"
 #storageAccountAccessKey = dbutils.secrets.get(scope="healthcare-key-vault", key='healthcare-adls-gen2-access-key')
-storageAccountAccessKey = "SqYJJnNQWgSI7vOeySVDpVxDmMRVCPyBj4HgETTPJQi4hu/9Gu06EYrVkNw4fhADxOkTy7OlNXPF+ASt9ImMxw=="
+storageAccountAccessKey = "<adls-account-key>"
 mountPoints=["gold","silver","bronze","landing","configs"]
 
 for mountPoint in mountPoints:
